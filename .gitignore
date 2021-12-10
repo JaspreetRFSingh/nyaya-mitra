@@ -1,12 +1,13 @@
-# Java/Gradle
-**/target/
-**/build/
+# Compiled class files
 *.class
+
+# Log files
+*.log
+
+# Package files
 *.jar
 *.war
 *.ear
-.gradle/
-build/
 
 # Maven
 target/
@@ -16,38 +17,35 @@ pom.xml.versionsBackup
 pom.xml.next
 release.properties
 
-# IDE
-.idea/
-*.iml
-*.ipr
-*.iws
-.project
-.classpath
-.settings/
-.vscode/
-
-# Node.js
+# Node
 node_modules/
 npm-debug.log
 yarn-error.log
 
 # React
 build/
-.DS_Store
+dist/
 
-# Logs
-*.log
-logs/
-
-# Environment
-.env
-.env.local
-.env.*.local
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Test
-coverage/
-.nyc_output/
+# Environment
+.env
+.env.local
+application-local.properties
+
+# MongoDB
+mongod.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
